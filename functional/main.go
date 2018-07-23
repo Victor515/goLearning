@@ -5,20 +5,9 @@ import (
 	"io"
 	"bufio"
 	"strings"
+	"learngo/functional/fib"
 )
 
-
-
-func fibonacci() intGen{
-	first := 0
-	second := 1
-	return func() int {
-		cur := first + second
-		first = second
-		second = cur
-		return cur
-	}
-}
 
 type intGen func() int
 
@@ -50,7 +39,7 @@ func printFileContents(reader io.Reader){
 }
 
 func main() {
-	f := fibonacci()
+	var f intGen = fib.Fibonacci()
 
 	//for i := 0; i < 10; i++{
 	//	fmt.Println(f())
