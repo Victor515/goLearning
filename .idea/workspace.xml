@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="357dd162-5e2c-49c8-a238-bb2570f583d2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/containers/Leetcode3/nonrepeating_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/queue_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/queue/queueentry/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/containers/Leetcode3/Longest Substring Without Repeating Characters.go" beforeDir="false" afterPath="$PROJECT_DIR$/containers/Leetcode3/nonrepeating.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errorhandling/filelistingserver/filelisting/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/errorhandling/filelistingserver/filelisting/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errorhandling/filelistingserver/web.go" beforeDir="false" afterPath="$PROJECT_DIR$/errorhandling/filelistingserver/web.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errorhandling/recover/recover.go" beforeDir="false" afterPath="$PROJECT_DIR$/errorhandling/recover/recover.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,23 +19,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nonrepeating.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/containers/Leetcode3/nonrepeating.go">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/queue/queueentry/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="52" column="43" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="43" />
+            <state>
+              <folding>
+                <element signature="e#14#72#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nonrepeating_test.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/containers/Leetcode3/nonrepeating_test.go">
+      <file leaf-file-name="queue.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/queue/queue.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-              <folding>
-                <element signature="e#14#42#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="queue_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/queue/queue_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -113,6 +119,9 @@
         <option value="$PROJECT_DIR$/errorhandling/filelistingserver/web.go" />
         <option value="$PROJECT_DIR$/containers/Leetcode3/nonrepeating.go" />
         <option value="$PROJECT_DIR$/containers/Leetcode3/nonrepeating_test.go" />
+        <option value="$PROJECT_DIR$/queue/queueentry/main.go" />
+        <option value="$PROJECT_DIR$/queue/queue.go" />
+        <option value="$PROJECT_DIR$/queue/queue_test.go" />
       </list>
     </option>
   </component>
@@ -153,13 +162,7 @@
             <path>
               <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
               <item name="learngo" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learngo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learngo" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Leetcode3" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.BenchmarkSubstr in learngo/containers/Leetcode3">
+  <component name="RunManager" selected="Go Test.ExampleQueue_Pop in learngo/queue">
     <configuration name="go build Longest Substring Without Repeating Characters.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -230,14 +233,6 @@
       <filePath value="$PROJECT_DIR$/containers/Leetcode3/nonrepeating.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build web.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/errorhandling/filelistingserver/web.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
     <configuration name="BenchmarkSubstr in learngo/containers/Leetcode3" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/containers/Leetcode3" />
@@ -248,6 +243,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^BenchmarkSubstr$" />
+    </configuration>
+    <configuration name="ExampleQueue_Pop in learngo/queue" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="learngo" />
+      <working_directory value="$PROJECT_DIR$/queue" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="learngo/queue" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^ExampleQueue_Pop$" />
     </configuration>
     <configuration name="TestSubstr in learngo/containers/Leetcode3" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
@@ -281,34 +287,52 @@
     </configuration>
     <list>
       <item itemvalue="Go Test.gobench containers" />
-      <item itemvalue="Go Build.go build web.go" />
       <item itemvalue="Go Build.go build Longest Substring Without Repeating Characters.go" />
       <item itemvalue="Go Build.go build nonrepeating.go" />
       <item itemvalue="Go Test.TestSubstr in learngo/containers/Leetcode3" />
       <item itemvalue="Go Test.BenchmarkSubstr in learngo/containers/Leetcode3" />
+      <item itemvalue="Go Test.ExampleQueue_Pop in learngo/queue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.ExampleQueue_Pop in learngo/queue" />
         <item itemvalue="Go Test.BenchmarkSubstr in learngo/containers/Leetcode3" />
         <item itemvalue="Go Test.TestSubstr in learngo/containers/Leetcode3" />
         <item itemvalue="Go Build.go build nonrepeating.go" />
         <item itemvalue="Go Build.go build Longest Substring Without Repeating Characters.go" />
-        <item itemvalue="Go Build.go build web.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSubstr_in_learngo_containers_Leetcode3 - 2018.07.24 at 16h 39m 08s.xml">
-      <configuration name="TestSubstr in learngo/containers/Leetcode3" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSubstr_in_learngo_containers_Leetcode3 - 2018.07.24 at 16h 39m 19s.xml">
-      <configuration name="TestSubstr in learngo/containers/Leetcode3" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestSubstr_in_learngo_containers_Leetcode3 - 2018.07.24 at 16h 40m 37s.xml">
-      <configuration name="TestSubstr in learngo/containers/Leetcode3" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="BenchmarkSubstr_in_learngo_containers_Leetcode3 - 2018.07.24 at 16h 48m 26s.xml">
+    <history-entry file="BenchmarkSubstr_in_learngo_containers_Leetcode3 - 2018.07.24 at 17h 02m 27s.xml">
       <configuration name="BenchmarkSubstr in learngo/containers/Leetcode3" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkSubstr_in_learngo_containers_Leetcode3 - 2018.07.24 at 17h 02m 44s.xml">
+      <configuration name="BenchmarkSubstr in learngo/containers/Leetcode3" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkSubstr_in_learngo_containers_Leetcode3 - 2018.07.24 at 17h 03m 02s.xml">
+      <configuration name="BenchmarkSubstr in learngo/containers/Leetcode3" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkSubstr_in_learngo_containers_Leetcode3 - 2018.07.24 at 17h 03m 51s.xml">
+      <configuration name="BenchmarkSubstr in learngo/containers/Leetcode3" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkSubstr_in_learngo_containers_Leetcode3 - 2018.07.24 at 17h 05m 01s.xml">
+      <configuration name="BenchmarkSubstr in learngo/containers/Leetcode3" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSubstr_in_learngo_containers_Leetcode3 - 2018.07.24 at 17h 51m 38s.xml">
+      <configuration name="TestSubstr in learngo/containers/Leetcode3" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSubstr_in_learngo_containers_Leetcode3 - 2018.07.24 at 17h 52m 05s.xml">
+      <configuration name="TestSubstr in learngo/containers/Leetcode3" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkSubstr_in_learngo_containers_Leetcode3 - 2018.07.24 at 17h 52m 32s.xml">
+      <configuration name="BenchmarkSubstr in learngo/containers/Leetcode3" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExampleQueue_Pop_in_learngo_queue - 2018.07.24 at 19h 57m 45s.xml">
+      <configuration name="ExampleQueue_Pop in learngo/queue" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExampleQueue_Pop_in_learngo_queue - 2018.07.24 at 19h 58m 21s.xml">
+      <configuration name="ExampleQueue_Pop in learngo/queue" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -323,7 +347,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.27272728" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
       <window_info id="Structure" order="1" sideWeight="0.50060606" side_tool="true" weight="0.26037195" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32848486" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22909091" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -363,7 +387,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -376,13 +400,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/functional/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functional/fib/fib.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -587,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree/entry/entry.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tree/traverse.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -690,20 +700,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/containers/Leetcode3/nonrepeating.go">
+    <entry file="file://$PROJECT_DIR$/tree/entry/entry.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="52" column="43" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="43" />
+        <state relative-caret-position="720">
+          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/containers/Leetcode3/nonrepeating_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="120">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/containers/Leetcode3/nonrepeating.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/queueentry/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#14#42#0" expanded="true" />
+            <element signature="e#14#72#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/queue.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/queue/queue_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
