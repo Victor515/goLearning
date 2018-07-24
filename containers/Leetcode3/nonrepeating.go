@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+/*
+LeetCode Problem 3: Longest Substring Without Repeating Character
+ */
+
 func solve(str string) int{
 	// decalre a map
 	lastOccured := make(map[byte]int)
