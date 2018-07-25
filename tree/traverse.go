@@ -29,3 +29,16 @@ func (node *Node) InOrderPrint(){
 	})
 	fmt.Println()
 }
+
+func (node *Node) InOrderChan() chan *Node{
+	// create a channel
+	out := make(chan *Node)
+	go func() {
+		node.InOrderFunc(func(node *Node) {
+			out <- node
+		})
+		close(out)
+	}()
+	// return the channel
+	return out
+}

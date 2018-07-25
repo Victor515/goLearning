@@ -2,6 +2,7 @@ package main
 
 import (
 	"learngo/tree"
+	"fmt"
 )
 
 // extending tree methods with struct
@@ -49,5 +50,16 @@ func main() {
 
 	// new functional style
 	root.InOrderPrint()
+
+	// find maxNode with channel traversal
+	maxNode := 0
+	c := root.InOrderChan()
+	for node := range c{
+		if node.Val > maxNode{
+			maxNode = node.Val
+		}
+	}
+	fmt.Println("MaxNode value is ", maxNode)
+
 }
 
