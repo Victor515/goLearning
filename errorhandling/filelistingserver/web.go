@@ -5,6 +5,7 @@ import (
 	"learngo/errorhandling/filelistingserver/filelisting"
 	"os"
 	"log"
+	_ "net/http/pprof"
 )
 
 type appHanlder func(writer http.ResponseWriter, request *http.Request) error
