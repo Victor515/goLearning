@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="357dd162-5e2c-49c8-a238-bb2570f583d2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/basics/regex/regex.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/useragent/useragent.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +16,12 @@
     <SUITE FILE_PATH="coverage/learngo$TestSubstr_in_learngo_containers_Leetcode3.out" NAME="TestSubstr in learngo/containers/Leetcode3 Coverage Results" MODIFIED="1532421637826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="regex.go" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="regex.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basics/regex/regex.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+            <state relative-caret-position="285">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding>
                 <element signature="e#14#41#0" expanded="true" />
               </folding>
@@ -29,11 +29,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regexp.go" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/regexp/regexp.go">
+      <file leaf-file-name="useragent.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/useragent/useragent.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="1020" column="22" lean-forward="true" selection-start-line="1020" selection-start-column="22" selection-end-line="1020" selection-end-column="22" />
+            <state relative-caret-position="225">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <folding>
+                <element signature="e#14#68#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,6 +54,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>DumpRequest</find>
+      <find>newrequest</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -66,7 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/containers/map.go" />
         <option value="$PROJECT_DIR$/containers/arrays.go" />
         <option value="$PROJECT_DIR$/containers/sliceops.go" />
         <option value="$PROJECT_DIR$/containers/slices.go" />
@@ -117,6 +120,7 @@
         <option value="$PROJECT_DIR$/maze/maze.in" />
         <option value="$PROJECT_DIR$/maze/maze.go" />
         <option value="$PROJECT_DIR$/basics/regex/regex.go" />
+        <option value="$PROJECT_DIR$/useragent/useragent.go" />
       </list>
     </option>
   </component>
@@ -147,6 +151,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="hello" type="cbb8eebc:String" user="hello" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,17 +179,6 @@
               <item name="learngo" type="462c0819:PsiDirectoryNode" />
               <item name="basics" type="462c0819:PsiDirectoryNode" />
               <item name="regex" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="hello" type="cbb8eebc:String" user="hello" />
             </path>
           </expand>
           <select />
@@ -219,15 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build regex.go">
-    <configuration name="go build atomic.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learngo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/basics/atomic/atomic.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build useragent.go">
     <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learngo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -250,6 +246,14 @@
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/basics/regex/regex.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build useragent.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learngo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/useragent/useragent.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build web.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -281,19 +285,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Test.gobench containers" />
-      <item itemvalue="Go Build.go build atomic.go" />
       <item itemvalue="Go Build.go build client.go" />
       <item itemvalue="Go Build.go build web.go" />
       <item itemvalue="Go Build.go build maze.go" />
       <item itemvalue="Go Build.go build regex.go" />
+      <item itemvalue="Go Build.go build useragent.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build useragent.go" />
         <item itemvalue="Go Build.go build regex.go" />
         <item itemvalue="Go Build.go build maze.go" />
         <item itemvalue="Go Build.go build web.go" />
         <item itemvalue="Go Build.go build client.go" />
-        <item itemvalue="Go Build.go build atomic.go" />
       </list>
     </recent_temporary>
   </component>
@@ -333,17 +337,17 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.2746781" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.27825466" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.329429" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2230303" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" sideWeight="0.50060606" side_tool="true" weight="0.26037195" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.27636364" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -356,21 +360,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49939394" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" sideWeight="0.50060606" side_tool="true" weight="0.26037195" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27272728" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32848486" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27636364" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329429" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32848486" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3297568" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -396,9 +400,6 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/go/src/bufio/scan.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file:///usr/local/go/src/fmt/doc.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -649,13 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/net/http/client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="74" column="54" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/net/http/httputil/dump.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -719,19 +713,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/regexp/regexp.go">
+    <entry file="file://$PROJECT_DIR$/basics/regex/regex.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="1020" column="22" lean-forward="true" selection-start-line="1020" selection-start-column="22" selection-end-line="1020" selection-end-column="22" />
+        <state relative-caret-position="285">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#14#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basics/regex/regex.go">
+    <entry file="file:///usr/local/go/src/net/http/client.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+        <state relative-caret-position="224">
+          <caret line="375" column="2" lean-forward="true" selection-start-line="375" selection-start-column="2" selection-end-line="375" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/regexp/regexp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="1020" column="22" selection-start-line="1020" selection-start-column="22" selection-end-line="1020" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/useragent/useragent.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
-            <element signature="e#14#41#0" expanded="true" />
+            <element signature="e#14#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
